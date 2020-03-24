@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.polymorph {
+    fill: #29ABE2;
+}
+
+#enterBtn,
+#exitBtn {
+    position: absolute;
+    margin: 10em auto 0 auto;
+    left: 0;
+    right: 0;
+    width: 30%;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline: 0;
+    visibility: hidden;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#exitBtn {
+    width: auto;
+    margin: 30px auto;
+    background: #29ABE2;
+}
+
+#welcomeDiv {
+    position: absolute;
+    color: #29ABE2;
+    align-self: center;
+    right: 20%;
+    top: 30%;
+    opacity: 0;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    transform: translateY(-800px);
+}
+
+@media screen and (max-width: 1050px) {}
+
+@media screen and (max-width: 1000px) {}
+
+@media screen and (max-width: 900px) {
+    #welcomeDiv {
+        opacity: 1;
+        position: relative;
+        align-self: center;
+        margin: auto;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        color: #fff;
+        margin-top: 20%;
+    }
+    #backgroundSvg {
+        display: none;
+    }
+    body {
+        background-color: #29ABE2;
+    }
+}
